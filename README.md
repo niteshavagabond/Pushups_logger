@@ -9,6 +9,9 @@ Author - Nitesh Verma
 
 3. installing flask
 
-4. creating environment
+4. creating virtual environment for flask using
+<i>python3 -m venv .venv</i>
+
+5. 
 
 
