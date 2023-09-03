@@ -6,14 +6,18 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Hello!</h1>
+    <h1><b>Hi!</b></h1>
     <!-- Center the image using CSS -->
     <div style="text-align: center;">
         <img src="{{ url_for('static', filename='images/pushups.png') }}" 
         alt="pushup guy"
         height="200">
     </div>
-    <p>Welcome to your pushup-logger<br>
-    This is your home to log your daily pushups.
-    </p>
+    <div style="text-align: center;">
+        <b>
+        <p>Welcome to your pushup-logger<br>
+        This is your home to log your daily pushups.
+        </p>
+        </b>
+    </div>
 {% endblock %}
