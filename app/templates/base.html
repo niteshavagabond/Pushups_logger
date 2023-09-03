@@ -46,11 +46,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{url_for ('main.profile')}}">Account</a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="{{url_for ('auth.signup')}}">Signup</a>
+                <button type="button" class="btn btn-primary btn-sm">
+                <a class="nav-link active" href="{{url_for ('auth.signup')}}">Signup</a>
+              </button>
               </li>
+            
               <li class="nav-item">
-                <a class="nav-link" href="{{url_for ('auth.login')}}">Login</a>
+                <button type="button" class="btn btn-primary btn-sm">
+                <a class="nav-link active" href="{{url_for ('auth.login')}}">Login</a>
+              </button>
               </li>
             </ul>
           </div>
