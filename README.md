@@ -18,5 +18,7 @@ Author - Nitesh Verma
 <br>
 6. Run app<br>
 <i>python run.py</i>
+<br>
+7. created __init__.py file<br>
 
 
